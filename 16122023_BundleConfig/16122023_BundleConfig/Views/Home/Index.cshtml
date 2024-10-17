@@ -1,0 +1,36 @@
+﻿@using System.Web.Optimization;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    @Styles.Render("~/bundles/custom")
+</head>
+<body>
+
+    @* 
+        BundleConfig
+        ---------------------
+        -Web uygulamaları geliştirirken kullanılan CSS,JavaScript dosyaları kullanımı yaparken birden fazla dosya kullanılabilir
+        --Bu dosyaların içerikleri ne kadar yazı olsa da bazı durumlarda boyutları yüksek olabilir
+        -Böyle bir durumla karşılaştığınızda web sitesi açılış hızı , web sayfalar arasında gezinme yaparken performans sorunları yaşanabilir
+        -Böyle bir durum ile karşılaşmamak için CSS,JavaScript dosyalarının optimize edilmesi gerekmektedir
+        
+        -BundleConfig yapısı .Net Framework 4.5 ile birlikte gelmiştir.Bu yapı CSS , Javascript gibi kütüphaneleri tek bir terden yönetmenizi ve optimize etmenizi sağlar
+
+        -İndirmemiz gereken paket: Microsoft.AspNet.Web.Optimization
+    
+        *@
+    <h1> Index Sayfası </h1>
+    <p>
+        Deneme
+    </p>
+    <div> 
+    </div>
+</body>
+</html>

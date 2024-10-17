@@ -1,0 +1,12 @@
+﻿body {
+    background-color:orange;
+    font-size:14px;
+}
+    p{
+        font-family:"Times New Roman";
+        color:white;
+    }
+        p:hover{
+            color:black;
+            background-color:white;
+        }
